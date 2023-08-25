@@ -273,6 +273,7 @@ body {
     background-color: rgb(255, 255, 255);
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .portfolio-item {
