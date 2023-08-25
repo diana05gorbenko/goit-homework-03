@@ -157,21 +157,37 @@ body {
 }
 
 /*Section two*/
+.about {
+    padding: 120px 0;
+}
 
-.section-two {
+.hidden-list{
+    display: flex;
+    gap: 24px;
+}
+
+.goals-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
+    letter-spacing: 0.4px;
+    color: #2e2f42;
+    margin-bottom: 8px;
 }
 
-.section-two-text {
+.goals-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+.goals-item {
+    width: calc((100% - 72px) / 4);
+}
+
+
+
 /*Section three*/
 .section-three-fon {
     background-color: #F4F4FD;
