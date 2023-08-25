@@ -266,13 +266,13 @@ body {
 }
 
 .portfolio {
-    color: #2e2f42;
     font-size: 36px;
-    font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    margin-bottom: 72px;
+    color: rgb(46, 47, 66);
+    background-color: rgb(255, 255, 255);
     text-align: center;
+    text-transform: capitalize;
 }
 
 .portfolio-item {
@@ -280,6 +280,7 @@ body {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    list-style-type: none;
 
 }
 
