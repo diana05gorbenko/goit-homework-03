@@ -1,0 +1,199 @@
+/* ПРИХОВАТИ СПИСКИ */
+.hidden-list {
+    list-style-type: none;
+}
+
+/* ЛОГОТИП */
+.logo {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.studio {
+    color: #2E2F42;
+    text-decoration: none;
+}
+
+.logo-span {
+    text-decoration: none;
+}
+
+/* ОСНОВА САЙТУ */
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.menu-item {
+    list-style-type: none; 
+}
+
+.menu-link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404bbf
+}
+
+.address-item {
+    list-style-type: none;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf
+}
+
+/* Section 1 */
+.hero-image {
+    background-color: #2E2F42;
+}
+
+.big-text {
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.button {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+.button:focus,
+.button:hover {
+    background-color: #404BBF;
+}
+
+/*Section two*/
+
+.section-two {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.section-two-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/*Section three*/
+.section-three-fon {
+    background-color: #F4F4FD;
+}
+
+.section-three-maintext {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    background-color: #F4F4FD;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.section-three {
+    color: #2E2F42;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section-three-link {
+    background-color: #FFFFFF;
+}
+
+
+.section-three-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+/*Section four*/
+.section-four {
+    color: #2E2F42;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section-four-maintext {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    background-color: #FFFFFF;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.section-four-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*Footer*/
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-text {
+    color: #F4F4FD;
+    background-color: #2E2F42;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.footer>.logo>.logo-span {
+    color: #F4F4FD;
+}
