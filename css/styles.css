@@ -3,12 +3,25 @@
     list-style-type: none;
 }
 
-/* КОНТЕЙНЕР */
+/* КОНТЕЙНЕР ДЛЯ ХЕДЕРА */
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+    display: flex;
+}
+
 .container-header {
     display: flex;
-    justify-content: space-between;
+    padding: 24px 0;
     align-items: center;
-    flex-direction: row;
+    justify-content: space-between;   
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
 }
 
 /* ЛОГОТИП */
@@ -26,6 +39,7 @@
 .studio {
     color: #2E2F42;
     text-decoration: none;
+    margin-right: 76px
 }
 
 .logo-span {
@@ -41,6 +55,9 @@ body {
 
 .menu-item {
     list-style-type: none; 
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
 }
 
 .menu-link {
@@ -59,6 +76,8 @@ body {
 
 .address-item {
     list-style-type: none;
+    display: flex;
+    gap: 40px;
 }
 
 .address {
