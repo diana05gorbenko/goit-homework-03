@@ -1,9 +1,16 @@
+img {
+    display: block
+}
 /* ПРИХОВАТИ СПИСКИ */
 .hidden-list {
     list-style-type: none;
 }
 
 /* КОНТЕЙНЕР ДЛЯ ХЕДЕРА */
+.header {
+border-bottom: 1px solid #e7e9fc;
+}
+
 .container {
     width: 1158px;
     margin-left: auto;
@@ -14,9 +21,9 @@
 
 .container-header {
     display: flex;
-    padding: 24px 0;
     align-items: center;
-    justify-content: space-between;   
+    justify-content: space-between; 
+    margin-right: 76px;
 }
 
 .navigation {
@@ -67,6 +74,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .menu-link:hover,
