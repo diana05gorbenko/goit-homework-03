@@ -12,8 +12,8 @@ border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
-    margin: 0 auto;
     width: 1158px;
+    margin: 0 auto;
     padding: 0 15px;
     display: flex;
 }
@@ -202,41 +202,59 @@ body {
 
 
 /*Section three*/
-.section-three-fon {
-    background-color: #F4F4FD;
+
+/*team*/
+.team-card {
+    background-color: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
-.section-three-maintext {
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    background-color: #F4F4FD;
+.team-list {
+    background-color: #ffffff;
+}
+
+.team-about {
+    display: flex;
+    gap: 24px;
+}
+
+.team {
     text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
     text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
 }
 
-.section-three {
-    color: #2E2F42;
-    background-color: #FFFFFF;
+.team-list {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.members {
+    padding: 32px 0;
+    text-align: center;
+}
+
+.team-title {
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
 
-.section-three-link {
-    background-color: #FFFFFF;
-}
-
-
-.section-three-text {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.team-description {
     color: #434455;
-    background-color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 
 /*Section four*/
