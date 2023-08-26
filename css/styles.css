@@ -31,7 +31,6 @@ border-bottom: 1px solid #e7e9fc;
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    margin-right: 76px;
 }
 
 .navigation {
@@ -73,7 +72,7 @@ body {
     list-style-type: none; 
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+    padding: 0;
 }
 
 .menu-link {
@@ -83,7 +82,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-    padding: 24px 0;
+    padding: 0;
 }
 
 .menu-link:hover,
@@ -173,7 +172,6 @@ body {
 .hidden-list{
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
@@ -206,7 +204,8 @@ body {
 }
 
 .goals-item {
-    flex-basis: calc((100% - 3 * 24px) / 4)
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 
