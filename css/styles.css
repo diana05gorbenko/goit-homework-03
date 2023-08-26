@@ -58,7 +58,8 @@ border-bottom: 1px solid #e7e9fc;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-    padding: 0;
+    padding: 24px 0;
+    display: block;
 }
 
 .menu-link:hover,
