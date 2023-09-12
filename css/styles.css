@@ -48,7 +48,6 @@ border-bottom: 1px solid #e7e9fc;
     list-style-type: none;
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .menu-link {
@@ -100,17 +99,14 @@ border-bottom: 1px solid #e7e9fc;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    margin-right: 76px;
 }
 
 .studio {
     color: #2E2F42;
-    text-decoration: none;
-    margin-right: 76px
 }
 
 .logo-span {
-    text-decoration: none;
+    color:#F4F4FD;;
 }
 
 /* ОСНОВА САЙТУ */
